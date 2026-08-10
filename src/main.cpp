@@ -317,7 +317,7 @@ void randomizeMines() {
 void loadBoard() {
     // update stats
     level++;
-    mines = std::min(LENGTH * LENGTH - 9, mines += rand() % 3 + 1);
+    mines = std::min(MAX_MINES, mines += rand() % 3 + 1);
     if (level >= 5)
         flashlightRadius = std::max(64.0f, 256.0f / (level - 4.0f));
     if (level >= 2)
@@ -528,7 +528,7 @@ int main() {
         Texture{"textures/7.png"},
         Texture{"textures/8.png"},
         Texture{"textures/mine.png"},
-        Texture{"textures/hidden.png"}, // 10
+        Texture{"textures/hidden.png"},
         Texture{"textures/flag.png"},
         Texture{"textures/missingTextures.png"},
         Texture{"textures/0smudged.png"},
@@ -538,7 +538,7 @@ int main() {
         Texture{"textures/1smudged2.png"},
         Texture{"textures/phi.png"},
         Texture{"textures/2smudged.png"},
-        Texture{"textures/2smudged2.png"}, // 20
+        Texture{"textures/2smudged2.png"},
         Texture{"textures/e.png"},
         Texture{"textures/3smudged.png"},
         Texture{"textures/3smudged2.png"},
@@ -548,7 +548,7 @@ int main() {
         Texture{"textures/5smudged.png"},
         Texture{"textures/5smudged2.png"},
         Texture{"textures/6smudged.png"},
-        Texture{"textures/6smudged2.png"}, // 30
+        Texture{"textures/6smudged2.png"},
         Texture{"textures/7smudged.png"},
         Texture{"textures/7smudged2.png"},
     };
