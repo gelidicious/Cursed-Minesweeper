@@ -11,7 +11,6 @@
 #include <cstdlib>
 #include <algorithm>
 
-#include "include/ui.h"
 #include "include/texture.h"
 
 const char* vertexShaderSource = R"(
