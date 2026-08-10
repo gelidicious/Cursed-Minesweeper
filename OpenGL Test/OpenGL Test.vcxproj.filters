@@ -27,15 +27,6 @@
     <ClCompile Include="src\stb_image.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\include\ui.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\ui.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\shader.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -54,9 +45,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="dependencies\include\stb\stb_image.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\include\shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\include\texture.h">
@@ -149,9 +137,6 @@
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="textures\2smudged3.png">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="textures\bone.png">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="textures\4smudged2.png">
